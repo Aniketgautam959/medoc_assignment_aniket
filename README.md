@@ -4,14 +4,14 @@ A comprehensive token allocation system for hospital OPD (Outpatient Department)
 
 ## Features
 
-- ✅ **Priority-Based Allocation**: 5-tier priority system (Emergency > Paid Priority > Follow-up > Online > Walk-in)
-- ✅ **Dynamic Reallocation**: Automatic reallocation from waiting queue on cancellations/no-shows
-- ✅ **Emergency Insertion**: Emergency patients can bump lower priority tokens
-- ✅ **Elastic Capacity**: Adjust slot capacity on-the-fly with automatic reallocation
-- ✅ **Hard Limit Enforcement**: Strict capacity constraints per time slot
-- ✅ **Multiple Token Sources**: Online booking, walk-in, paid priority, follow-up, emergency
-- ✅ **Comprehensive API**: RESTful endpoints for all operations
-- ✅ **Edge Case Handling**: Robust handling of real-world scenarios
+- **Priority-Based Allocation**: 5-tier priority system (Emergency > Paid Priority > Follow-up > Online > Walk-in)
+- **Dynamic Reallocation**: Automatic reallocation from waiting queue on cancellations/no-shows
+-  **Emergency Insertion**: Emergency patients can bump lower priority tokens
+-  **Elastic Capacity**: Adjust slot capacity on-the-fly with automatic reallocation
+-  **Hard Limit Enforcement**: Strict capacity constraints per time slot
+-  **Multiple Token Sources**: Online booking, walk-in, paid priority, follow-up, emergency
+-  **Comprehensive API**: RESTful endpoints for all operations
+-  **Edge Case Handling**: Robust handling of real-world scenarios
 
 ## Quick Start
 
