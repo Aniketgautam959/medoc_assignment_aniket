@@ -1,12 +1,6 @@
 import { Router } from 'express';
-import { DoctorController } from '../controllers/doctorController';
-import { TokenController } from '../controllers/tokenController';
-import { TokenAllocationEngine } from '../services/TokenAllocationEngine';
-
-const engine = new TokenAllocationEngine();
-
-const doctorController = new DoctorController(engine);
-const tokenController = new TokenController(engine);
+import * as doctorController from '../controllers/doctorController';
+import * as tokenController from '../controllers/tokenController';
 
 const router = Router();
 
@@ -27,4 +21,3 @@ router.post('/tokens/:id/complete', tokenController.completeToken);
 router.get('/doctors/:doctorId/tokens', tokenController.getDoctorTokens);
 
 export default router;
-export { engine };
