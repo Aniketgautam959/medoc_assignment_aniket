@@ -135,6 +135,3 @@ curl -X POST http://localhost:3000/api/tokens/allocate \
 | 4 | ONLINE | Pre-booked appointments |
 | 5 | WALKIN | Same-day walk-ins |
 
-## License
-
-ISC
